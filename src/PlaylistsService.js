@@ -30,7 +30,7 @@ class PlaylistsService {
 
     playlist.songs = songsResult.rows;
 
-    return playlist;
+    return { playlist };
   }
 
 }
